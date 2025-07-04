@@ -1,5 +1,6 @@
 // Order (log n) time complexity program example
 // Binary search algorithms
+//# Divide and conquer – the binary way! ⚔️
 let arr=[1,2,3,4,5,6,7,8,9]
 
 function binarSearch(arr,val){
