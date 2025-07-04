@@ -1,10 +1,7 @@
-// find missing number
-// swap sort
-
-// logic 
-//1. missing number i+1
-//2. duplicate num arr[i]
-        //[1,2,3,1,5]  // missing 4 and duplicate 1
+// Swap Sort logic to find missing and duplicate numbers
+// 1. Place each number at its correct index: arr[i] → arr[arr[i] - 1]
+// 2. After sorting:
+//    - If arr[i] != i+1 → arr[i] is duplicate, i+1 is missing
 // let arr=[2,3,1,5,1] // arr[0] place to its right place arr[0]-1 : 2-1 : 1 this right place
 let arr=[2,5,9,6,9,3,8,9,7,1]// arr[0] place to its right place arr[0]-1 : 2-1 : 1 this right place
 
