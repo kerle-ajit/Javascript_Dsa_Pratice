@@ -1,5 +1,8 @@
-
-
+// Function to return:
+// "fooBar" if n is divisible by 5 or 7,
+// "bar" if divisible by 5,
+// "foo" if divisible by 3,
+// otherwise "nothing"
 let n=13
 
 function fooBarQuestion(n){
